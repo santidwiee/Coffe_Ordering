@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:background="@color/colorPrimary"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+        android:text="LIST MENU"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="95px"
+        android:fontFamily="@font/bubblegum_sans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"/>
+
+<TextView
+        android:text="If you want add menu, you can click feature Add."
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp"
+        android:layout_toStartOf="@+id/addMenu"
+        android:layout_marginEnd="2dp"/>
+<TextView
+        android:text="While after you added, so menu will showing below."
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="106dp"
+        android:layout_toStartOf="@+id/addMenu"
+        android:layout_marginEnd="-15dp"/>
+
+<ImageView
+        android:id="@+id/addMenu"
+        android:src="@drawable/add"
+        android:layout_width="70dp"
+        android:elevation="5dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"/>
+
+<RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:background="@drawable/bg_5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="0dp">
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_list_menu"
+            tools:listitem="@layout/item_menu"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>
+</RelativeLayout>

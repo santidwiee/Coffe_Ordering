@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "486707717377",
+    "firebase_url": "https://coffeeordering-91c10.firebaseio.com",
+    "project_id": "coffeeordering-91c10",
+    "storage_bucket": "coffeeordering-91c10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486707717377:android:6898c8d5b3c9e112fba700",
+        "android_client_info": {
+          "package_name": "com.example.coffeeordering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486707717377-03ld0cn7l6n8iu0p6te9hn6utbt0vtej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coffeeordering",
+            "certificate_hash": "52019e0f8cec9db708895dc419e6213a819548d8"
+          }
+        },
+        {
+          "client_id": "486707717377-qlfpsp8i7puk7elckp1m6rvmq982193r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqe2XJWBw9eEr1dS8JW_bPtkBJwmDY1jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486707717377-qlfpsp8i7puk7elckp1m6rvmq982193r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

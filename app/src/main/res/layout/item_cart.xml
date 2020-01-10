@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:padding="10dp"
+              android:background="@drawable/bg_4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:text="Nama"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_quantity"
+            android:layout_width="match_parent"
+            android:text="Quantity"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:text="Harga"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

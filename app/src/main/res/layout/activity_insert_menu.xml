@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Image File"/>
+        <Button
+                android:id="@+id/choose_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose File"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"/>
+        <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Name Of Menu"/>
+        <EditText
+                android:id="@+id/name_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/bubblegum_sans"
+                android:textColorHint="@color/colorAccent"
+                android:hint="Enter name of menu..."/>
+        <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Price Of Menu"/>
+        <EditText
+                android:id="@+id/price_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/bubblegum_sans"
+                android:textColorHint="@color/colorAccent"
+                android:hint="Enter price of menu..."/>
+        <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/done"
+            android:src="@drawable/save"
+            android:background="@drawable/button_react3"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="261dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="120dp"
+            android:layout_height="50dp"/>
+
+</RelativeLayout>

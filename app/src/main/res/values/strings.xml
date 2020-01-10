@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CoffeeOrdering</string>
+    <string name="title_activity_menu_admin">MenuAdminActivity</string>
+</resources>

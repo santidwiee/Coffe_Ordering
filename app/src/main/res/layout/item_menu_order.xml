@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/bg_4"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/button_oval"
+            android:scaleType="fitXY"
+            android:src="@drawable/kopi_1"
+            android:id="@+id/img_menuOrder"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="53dp"/>
+    <TextView
+            android:id="@+id/infoOrder1"
+            android:drawableLeft="@drawable/cart"
+            android:drawablePadding="10dp"
+            android:text="You can increasing or decrasing your menu "
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/bubblegum_sans"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"/>
+    <TextView
+            android:id="@+id/infoOrder2"
+            android:text="of count like you want."
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/bubblegum_sans"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/infoOrder1"
+            android:layout_marginLeft="20dp"/>
+    <TextView
+            android:id="@+id/checkMenuOrder"
+            android:text="Name Of Menu"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/bubblegum_sans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="71dp"
+            android:layout_marginTop="274dp"/>
+    <TextView
+            android:id="@+id/hargaMenuOrder"
+            android:text="Price Of Menu"
+            android:layout_below="@+id/checkMenuOrder"
+            android:textStyle="bold"
+            android:layout_marginBottom="70dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/bubblegum_sans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_alignStart="@+id/checkMenuOrder"
+            android:layout_marginStart="2dp"/>
+
+    <Button
+            android:id="@+id/increase"
+            android:textStyle="bold"
+            android:text="+"
+            android:fontFamily="@font/bubblegum_sans"
+            android:textColor="@color/colorAccent"
+            android:textSize="50px"
+            android:layout_below="@+id/infoOrder2"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    <Button
+            android:id="@+id/decrease"
+            android:textStyle="bold"
+            android:text="-"
+            android:fontFamily="@font/bubblegum_sans"
+            android:textColor="@color/colorAccent"
+            android:textSize="50px"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="128dp"
+            android:layout_alignTop="@+id/increase"/>
+    <TextView
+            android:id="@+id/count"
+            android:text="0"
+            android:textStyle="bold"
+            android:fontFamily="@font/bubblegum_sans"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="80px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="87dp"
+            android:layout_alignBaseline="@+id/increase"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:text="Total :"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/total"/>
+
+    <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:text="Rp 2000"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="146dp"
+            android:layout_marginEnd="257dp"/>
+    <Button
+            android:id="@+id/addCart"
+            android:text="Adding your Cart"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="@drawable/button_react3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/decrease"
+            android:layout_marginTop="202dp"/>
+
+</RelativeLayout>

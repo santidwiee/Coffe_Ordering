@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/login"
+android:background="@drawable/gradient_list"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+<ImageView
+        android:id="@+id/logoLogin"
+        android:elevation="5dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/kopi_2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="230dp"
+        android:layout_height="150dp"/>
+
+<RelativeLayout
+        android:background="@drawable/bg_1"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_react1"
+            android:hint="Email"
+            android:text="zpanzaztwizz@gmail.com"
+            android:textColor="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="7dp"
+            android:padding="5dp"
+            android:layout_marginTop="100dp"
+            android:layout_width="350dp"
+            android:layout_height="70dp"/>
+
+    <EditText
+            android:id="@+id/password"
+            android:layout_below="@+id/email"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_react1"
+            android:hint="Password"
+            android:text="password"
+            android:textColor="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="7dp"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="70dp"/>
+
+    <TextView
+            android:id="@+id/ForgetPassword"
+            android:text="Forget Your Password?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <View
+            android:id="@+id/view1"
+            android:layout_below="@+id/ForgetPassword"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="350dp"
+            android:layout_height="2dp"/>
+    <View
+            android:id="@+id/view2"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="350dp"
+            android:layout_height="2dp"/>
+    <Button
+            android:id="@+id/Login"
+            android:layout_below="@+id/view2"
+            android:text="Sign In"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_react2"
+            android:layout_width="350dp"
+            android:layout_height="70dp"/>
+    <TextView
+            android:id="@+id/Regis"
+            android:text="Create Your Account"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_below="@+id/Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>
+
+</RelativeLayout>
